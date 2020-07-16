@@ -30,7 +30,7 @@ jobs:
            sudo -E apt-get -qq install wget php curl
        - name: Cloning script
          run: |
-           wget https://raw.githubusercontent.com/$USERNAME/warp-bot/master/warpy.php
+           wget https://raw.githubusercontent.com/qrovic/warp-bot/master/warpy.php
        - name: Running script
          run: |
            php warpy.php
